@@ -2,8 +2,7 @@
 
 @implementation IPFormatConverter
 
-- (NSString *)ipFormatConverter:(NSArray *)numbersArray
-{
+- (NSString *)ipFormatConverter:(NSArray *)numbersArray {
     if (numbersArray.count == 0) {
         return @"";
     }

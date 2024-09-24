@@ -1,7 +1,6 @@
 #import "ReverseBinary.h"
 
-UInt8 ReverseInteger(UInt8 n) 
-{
+UInt8 ReverseInteger(UInt8 n) {
     UInt8 result = 0;
     
     for (NSUInteger bitIndex = 0; bitIndex < 8; bitIndex++ ) {
